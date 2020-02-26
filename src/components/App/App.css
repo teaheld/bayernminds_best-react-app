@@ -1,0 +1,13 @@
+.window {
+    background: linear-gradient(to right, #dc052c, #bf2531);
+    width: 95%;
+    height: 94vh;
+    margin: 3vh auto;
+    border-radius: 5%;
+    overflow: hidden;
+}
+
+.blank {
+    height: 6%;
+    width: 100%;
+}

@@ -1,0 +1,47 @@
+.top {
+    display: flex;
+    height: 10%;
+    width: 100%;
+    background-color: white;
+    color: #a01439;
+    border-radius: 16%;
+    text-align: center;
+}
+
+h2 {
+    margin-left: 40%;
+}
+
+.central {
+    display: flex;
+    height: 80%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 7%;
+    width: 90%;
+    background-color: #0369a0;
+    border-radius: 5%;
+    flex-direction: column;
+}
+
+.players {
+    width: 95%;
+    border-collapse: collapse;
+}
+
+.name_col {
+    text-align: left;
+}
+
+td {
+    padding: 8px;
+    color: white;
+    text-align: center;
+}
+
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    color: #a01439;
+}
