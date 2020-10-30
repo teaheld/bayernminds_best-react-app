@@ -13,6 +13,7 @@ class Players extends React.Component {
 
     async fromMongo() {
         let scores = await GetScores.getScores();
+        // Already sorted on server, but ok
         scores = scores.sort((a, b) => { return a.score < b.score });
         this.setState({ scores: scores });
     }
@@ -29,7 +30,7 @@ class Players extends React.Component {
                         <td><b>{player.score}</b></td>
                     </tr>
                 )
-            }).slice(0, 10);
+            });
 
         return (
 

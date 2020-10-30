@@ -13,7 +13,7 @@ class GetScores {
 
     getScores() {
         return this.httpClient
-            .get("/users")
+            .get("/scores")
             .then(response =>
                 response.data
             );
